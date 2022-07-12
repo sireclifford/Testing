@@ -1,73 +1,35 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Testing
 
-# Project Name
-
-> Description the project.
+> Implement industry accepted unit testing; Jest
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+## Challenge description
 
 
-## Getting Started
+### Test the below methods with Jest using AAA pattern
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+> Write a function stringLength(string) that takes any string as an argument and returns its characters count.
 
+Example
 
-To get a local copy up and running follow these simple example steps.
+```
+console.log(stringLength('clifford'))
+//8
 
-### Prerequisites
+```
+> Write a function reverseString(string) function. It should take a string as an argument and return it reversed.
 
-### Setup
+Example
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+```
+console.log(reverseString('clifford'))
+//droffilc
 
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+```
+> Write a simple calculator class or object, which will have 4 methods: add, subtract, divide, and multiply.
+> Write a function capitalize(string) to capitalize the first character of a string
