@@ -1,73 +1,57 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Testing
 
-# Project Name
-
-> Description the project.
+> Implement industry accepted unit testing; Jest
 
 
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+## Challenge description
 
 
-## Getting Started
+### Test the below methods with Jest using AAA pattern
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+> Write a function stringLength(string) that takes any string as an argument and returns its characters count.
 
+Example
 
-To get a local copy up and running follow these simple example steps.
+```
+console.log(stringLength('clifford'));
+//8
+```
+> Write a function reverseString(string) function. It should take a string as an argument and return it reversed.
 
-### Prerequisites
+Example
 
-### Setup
+```
+console.log(reverseString('clifford'));
+//droffilc
+```
+> Write a simple calculator class or object, which will have 4 methods: add, subtract, divide, and multiply.
 
-### Install
+Example
 
-### Usage
+```
+const calc = new Calculator();
 
-### Run tests
+console.log(calc.add(1,2));
+//3
 
-### Deployment
+console.log(calc.subtract(3,2));
+//1
 
+console.log(calc.divide(10,2));
+//5
 
+console.log(calc.multiply(1,2));
+//2
+```
 
-## Authors
+> Write a function capitalizeFirst(string) to capitalize the first character of a string
 
-👤 **Author1**
+Example
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+```
+console.log(capitalize(''));
+//undefined
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+console.log(capitalizeFirst('clifford'));
+//Clifford
+```

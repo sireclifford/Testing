@@ -1,0 +1,22 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "methods.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sireclifford/Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sireclifford/Testing/issues"
+  },
+  "homepage": "https://github.com/sireclifford/Testing#readme",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
